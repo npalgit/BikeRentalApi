@@ -3,9 +3,7 @@
 
 
 
-## Indices
-
-* [Default](#default)
+* [End Points](#default)
 
   * [http://localhost:8000/Trip/RecentData?ids=56,58,60](#1-http:localhost:8000triprecentdata?ids=56,58,60)
   * [http://localhost:8000/Trip/CountAgeGroup?ids=56&ids=58&ids=60&date=2019-04-01](#2-http:localhost:8000tripcountagegroup?ids=56&ids=58&ids=60&date=2019-04-01)
@@ -109,4 +107,3 @@ URL: http://localhost:8000/Station/2
 
 ---
 [Back to top](#bikerentalapi)
-> Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2020-03-17 23:16:31 by [docgen](https://github.com/thedevsaddam/docgen)
