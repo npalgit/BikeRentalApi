@@ -6,6 +6,7 @@ const service = require('./app/services');
 const cluster = require('cluster');
 const os = require('os');
 const numCPU = os.cpus().length;
+const port = process.env.PORT || 8000;
 
 if(cluster.isMaster) {
     for (let index = 0; index < numCPU; index++) {
@@ -13,7 +14,7 @@ if(cluster.isMaster) {
     }
 } else {
     app.use(apiRouter);
-    app.listen(8000,()=> {
+    app.listen(port,()=> {
         let tripDataPromise = service.trip.getTripData();
         service.trip.setTripDataPromise(tripDataPromise);
     });
