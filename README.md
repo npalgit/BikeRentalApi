@@ -6,6 +6,7 @@
 To get the Node server running locally:
 
 - Clone this repo
+- you may need to install `git lfs` before cloning this repository  since it contains large csv file.
 - `npm install` to install all required dependencies
 - run  `npm start` command
 
