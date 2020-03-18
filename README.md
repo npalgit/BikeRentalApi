@@ -1,9 +1,16 @@
 
 # BikeRentalAPi
 
+# Getting started
 
+To get the Node server running locally:
+
+- Clone this repo
+- `npm install` to install all required dependencies
+- run  `npm start` command
 
 * [End Points](#default)
+
 
   * [http://localhost:8000/Trip/RecentData?ids=56,58,60](#1-http:localhost:8000triprecentdata?ids=56,58,60)
   * [http://localhost:8000/Trip/CountAgeGroup?ids=56&ids=58&ids=60&date=2019-04-01](#2-http:localhost:8000tripcountagegroup?ids=56&ids=58&ids=60&date=2019-04-01)
