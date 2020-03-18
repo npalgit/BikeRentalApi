@@ -3,6 +3,10 @@
 
 # Getting started
 
+Use commands bellow to get docker image and and run it on port 8000 
+- docker pull amanmeutd/bike-rental-api:tagname
+- docker run -p 8000:8000 amanmeutd/bike-rental-api
+
 To get the Node server running locally:
 
 - Clone this repo
