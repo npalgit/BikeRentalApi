@@ -17,6 +17,7 @@ To get the Node server running locally:
 * [End Points](#default)
 
 
+  * [http://localhost:8000/getAuthToken](#1-http:localhost:8000getauthtoken)
   * [http://localhost:8000/Trip/RecentData?ids=56,58,60](#1-http:localhost:8000triprecentdata?ids=56,58,60)
   * [http://localhost:8000/Trip/CountAgeGroup?ids=56&ids=58&ids=60&date=2019-04-01](#2-http:localhost:8000tripcountagegroup?ids=56&ids=58&ids=60&date=2019-04-01)
   * [http://localhost:8000/Station/2](#3-http:localhost:8000station2)
@@ -28,6 +29,19 @@ To get the Node server running locally:
 ## Default
 
 
+### 1. http://localhost:8000/getAuthToken
+
+
+get auth token
+
+
+***Endpoint:***
+
+```bash
+Method: GET
+Type: URLENCODED
+URL: http://localhost:8000/getAuthToken
+```
 
 ### 1. http://localhost:8000/Trip/RecentData?ids=56,58,60
 
